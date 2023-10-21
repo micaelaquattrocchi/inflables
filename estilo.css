@@ -1,0 +1,119 @@
+
+body{background-color: aquamarine;}
+img{ width: 20%;
+    height: 200px;
+border-color: brown;
+}
+
+/*................navbar.........*/
+
+
+.navbar {
+    background-color:rgb(224, 224, 224); 
+    color: white; 
+    padding: 15px; 
+}
+
+
+.nav-link {
+    color: rgb(194, 44, 44); 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    margin-right: 50px; 
+}
+
+
+.nav-link.active {
+    background-color: #eee8e8; 
+    border-radius: 5px; 
+    padding: 5px 10px; 
+}
+
+
+.navbar-toggler-icon {
+    background-color: rgb(150, 12, 12); 
+}
+
+
+
+/*........section.....*/
+
+.hijo{
+    text-align: center;
+color: blueviolet;}
+    img{ 
+        text-align: center;
+    }
+
+ /*...........card...........*/
+
+.card-container{
+    display: flex;
+    justify-content: space-between; 
+    flex-flow: wrap;
+    
+    
+}
+
+
+.card {
+    background-color: #8a2be2; 
+    color: white; 
+    margin: 10px; 
+    flex: 0 0  calc(20% - 20px); 
+    
+    
+}
+
+.btn {
+    background-color: #4b0082; 
+    color: white; 
+    border: none; 
+}
+
+
+.btn:hover {
+    background-color: #800080; 
+    
+}
+    /*......section................*/
+ 
+section {
+    background-color: aquamarine; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+section p {
+    font-size: 18px; 
+    line-height: 1.4; 
+    color: #333333; 
+}
+
+
+section p strong {
+    color: #8a2be2; /* Color de texto personalizado para resaltar el nombre de tu empresa */
+    font-weight: bold;
+}
+/*........article.......*/
+
+.uno{ text-align: center ; color: deeppink;
+    
+
+}
+.dos{text-align: center;
+color: darkorange;}
+.tres{text-align: center; color: fuchsia;}
+
+/*.........footer....*/
+footer{text-decoration-color: #800080;
+border-left-color: #8a2be2;
+color: orangered
+;
+text-decoration:underline ;
+text-align: right;}
+
+
